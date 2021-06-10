@@ -15,3 +15,7 @@ PRODUCT_COPY_FILES += \
 # APN configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
+# priv-app permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
